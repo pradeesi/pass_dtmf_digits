@@ -1,11 +1,11 @@
 
 ##------------------------------------------
 ##--- Author: Pradeep Singh
-##--- Blog: https://iotbytes.wordpress.com/record-audio-from-phone-line-with-raspberry-pi
-##--- Date: 27th June 2018
+##--- Blog: https://iotbytes.wordpress.com/send-dtmf-tones-with-raspberry-pi/
+##--- Date: 29th June 2018
 ##--- Version: 1.0
 ##--- Python Ver: 2.7
-##--- Description: This python code will pick an incomming call and detect Caller ID, DTMF Digits, Busy Tone and Silence on Phone line.
+##--- Description: This python script would dial a phone number and pass the DTMF digits using Raspberry Pi and USRobotics USR5637 USB Dial-up Modem.
 ##--- Hardware: Raspberry Pi3 and USRobotics USR5637 USB Modem
 ##------------------------------------------
 
@@ -26,8 +26,8 @@ import subprocess
 #=================================================================
 # Set these variables 
 #=================================================================
-PHONE_NUMBER = "0558592537" # Enter the Phone number that you want to dial
-DTMF_DIGITS = "1234567890" # Enter the DTMF digits that you want to pass (valid options: 0-9, * and #)
+PHONE_NUMBER = "xxxxxxx" # Enter the Phone number that you want to dial
+DTMF_DIGITS = "xxxx" # Enter the DTMF digits that you want to pass (valid options: 0-9, * and #)
 #=================================================================
 
 
